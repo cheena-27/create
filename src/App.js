@@ -6,9 +6,9 @@ import Person from './Person/Person.js';
 class App extends Component {
   state = {
   persons:[
-     {name:'cheena', age:31},
-     {name:'aadi', age:29},
-     {name:'sayali', age:26}
+     {name:'A', age:31},
+     {name:'B', age:29},
+     {name:'C', age:26}
   ] 
   }
 
@@ -17,9 +17,9 @@ class App extends Component {
     //console.log('clicked');
     this.setState({
        persons:[
-     {name:'cheena_adi', age:31},
-     {name:'aadi', age:29},
-     {name:'sayali', age:25}
+     {name:'A_B', age:31},
+     {name:'B', age:29},
+     {name:'C', age:25}
   ] 
 
     } )
