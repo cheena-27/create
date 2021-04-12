@@ -10,10 +10,10 @@ class App extends Component {
      {name:'A', age:31},
      {name:'B', age:29},
      {name:'C', age:26}
-  ] 
+  ], 
    otherState : 'some other value',
    ShowPersons: false
-  };
+  }
 
   switchNameHandler = () => {
 
