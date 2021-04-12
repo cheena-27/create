@@ -31,7 +31,7 @@ class App extends Component {
     const style = {
       backgroundColor: "white",
       font: "inherit",
-      border: 1px solid blue,
+      border: 2px solid blue,
       padding: '8px',
       cursor :'pointer'
     };
