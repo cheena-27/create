@@ -47,7 +47,7 @@ class App extends Component {
       <div className="App">
         <h1>Hi, I am a React App</h1>
         <p>This is really working !</p>
-        <button style={style} onClick={this.togglePersonHandler}>Switch name</button>
+        <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
           
           { this.state.ShowPersons === true ? 
             <div>
