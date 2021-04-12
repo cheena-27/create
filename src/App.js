@@ -13,7 +13,7 @@ class App extends Component {
   ] 
    otherState : 'some other value',
    ShowPersons: false
-  }
+  };
 
   switchNameHandler = () => {
 
