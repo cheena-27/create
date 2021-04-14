@@ -51,7 +51,7 @@ class App extends Component {
             return <Person name={person.name} age={person.age}/>
           })}
          
-    }
+    
     </div>
     );
    }
