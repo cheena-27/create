@@ -23,7 +23,7 @@ class App extends Component {
 
   togglePersonHandler = () => {
   const doesShow = this.state.ShowPersons;
-  this.setState({ShowPersons: !doesShow});
+  this.setState({ShowPersons: !doesShow})
 
   }
   
@@ -47,9 +47,7 @@ class App extends Component {
             name={person.name} 
             age={person.age}/>
           })}
-         
-    
-    </div>
+     </div>
     );
    }
 
