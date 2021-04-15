@@ -49,7 +49,7 @@ class App extends Component {
     backgroundColor: 'green',
     color: 'white',
     font: 'inherit',
-    border: '1px solid blue',
+    border: '1px solid black',
     padding: '8px',
     cursor: 'pointer',
  };
