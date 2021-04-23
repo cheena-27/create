@@ -5,7 +5,7 @@ import Person from './Person/Person.js';
 import AddUser from './Users/AddUser.js';
 
 
-/*class App extends Component {
+class App extends Component {
   state = {
   persons:[
      {id: '1',name:'A', age:31},
@@ -86,24 +86,14 @@ import AddUser from './Users/AddUser.js';
       <div className="App">
         <h1>Hi, I am a React App</h1>
         <p className={classes.join('')}>This is really working !</p>
-        <AddUser/>
         <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
         {persons}
-        
+        {AddUser}
       </div>
       );
    }
 }
-*/
 
-function App() {
-return(
-  <div>
-  <AddUser/>
-  </div>
-
-  );
-}
 export default App;
 
 
