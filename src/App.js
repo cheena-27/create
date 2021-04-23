@@ -5,7 +5,7 @@ import Person from './Person/Person.js';
 import AddUser from './Users/AddUser.js';
 
 
-class App extends Component {
+/*class App extends Component {
   state = {
   persons:[
      {id: '1',name:'A', age:31},
@@ -94,7 +94,16 @@ class App extends Component {
       );
    }
 }
+*/
 
+function App() {
+return(
+  <div>
+  <AddUser/>
+  </div>
+
+  );
+}
 export default App;
 
 
