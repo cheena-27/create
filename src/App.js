@@ -88,7 +88,7 @@ class App extends Component {
         <p className={classes.join('')}>This is really working !</p>
         <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
         {persons}
-        <Adduser/>
+        <AddUser/>
       </div>
       );
    }

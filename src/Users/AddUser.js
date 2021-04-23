@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Adduser = {props} => {
+const AddUser = {props} => {
 	const addUserHandler = {event} => {
 		event.preventDefault();
 	};
@@ -16,4 +16,4 @@ return (
 
 };
 
-export default Adduser;
+export default AddUser;
