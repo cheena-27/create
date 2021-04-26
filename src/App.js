@@ -84,11 +84,12 @@ class App extends Component {
   
    return (
        <div className="App">
+       <AddUser />
          <h1>Hi, I am a React App</h1>
          <p className={classes.join('')}>This is really working !</p>
          <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
          {persons}
-         <AddUser />
+
        </div>
        );
     }
