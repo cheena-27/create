@@ -90,7 +90,7 @@ class App extends Component {
          {persons}
          <AddUser />
        </div>
-      }
+      };
     }
  }
 
