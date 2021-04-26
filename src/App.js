@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 //import Person from './Person/Person.js';
-import AddUser from './Users/AddUser.js';
+import AddUser from './Users/AddUser';
 
 
 // class App extends Component {
