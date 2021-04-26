@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person.js';
-//import AddUser from './components/Users/AddUser.js';
+import AddUser from './components/Users/AddUser.js';
 
 
 class App extends Component {
@@ -88,8 +88,8 @@ class App extends Component {
          <p className={classes.join('')}>This is really working !</p>
          <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
          {persons}
-        
-       </div>
+         <AddUser />
+        </div>
        );
     }
  }
