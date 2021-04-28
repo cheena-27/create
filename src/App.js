@@ -91,7 +91,7 @@ class App extends Component {
          {persons}
      </div>
        <div><AddUser/></div>
-       
+     
        );
     }
  }
