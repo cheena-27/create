@@ -82,17 +82,16 @@ class App extends Component {
        classes.push('bold'); 
      }
   
-  render() { 
-      return (
-      <>
+   return (
+   
        <div className="App">
        <h1>Hi, I am a React App</h1>
          <p className={classes.join('')}>This is really working !</p>
          <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
          {persons}
-         <AddUser />
-       </div>
-       </>
+     </div>
+       <div><AddUser/></div>
+       
        );
     }
  }
