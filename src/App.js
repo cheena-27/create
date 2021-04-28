@@ -84,6 +84,7 @@ class App extends Component {
   
   render() { 
       return (
+      <>
        <div className="App">
        <h1>Hi, I am a React App</h1>
          <p className={classes.join('')}>This is really working !</p>
@@ -91,6 +92,7 @@ class App extends Component {
          {persons}
          <AddUser />
        </div>
+       </>
        );
     }
  }
