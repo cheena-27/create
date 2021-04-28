@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person.js';
-import AddUser from './Users/AddUser.js';
+//import AddUser from './Users/AddUser.js';
 
 
 class App extends Component {
@@ -77,20 +77,20 @@ class App extends Component {
      const classes = [];
      if(this.state.persons.length <= 2){
        classes.push('red'); 
-     };
+     }
      if (this.state.persons.length <= 1){
        classes.push('bold'); 
-     };
+     }
   
-  render() return {
-       <div className='App'>
-       <h1>Hi, I am a React App</h1>;
-         <p className={classes.join('')}>This is really working !</p>;
+   return (
+       <div className="App">
+       <h1>Hi, I am a React App</h1>
+         <p className={classes.join('')}>This is really working !</p>
          <button style={style} onClick={this.togglePersonHandler}>Toggle Persons</button>
          {persons}
-         <AddUser />
+     
        </div>
-      };
+       );
     }
  }
 
