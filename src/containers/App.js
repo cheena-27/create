@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import './containers/App.css';
+import './conatiners/App.css';
 import Person from './components/Person/Person.js';
 
 
