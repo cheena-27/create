@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import './conatiners/App.css';
-import Person from './components/Person/Person.js';
+import Person from '../components/Person/Person.js';
 
 
 
